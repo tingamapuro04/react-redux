@@ -1,7 +1,9 @@
 import * as actions from './Caketype'
 
-const buycake = () => {
+const buyCake = () => {
   return {
     type: actions.BUY_CAKE
   }
 }
+
+export default buyCake

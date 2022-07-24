@@ -1,12 +1,26 @@
-import React from 'react'
+import React from 'react';
+import { connect } from 'react-redux';
+import buyCake from '../redux/cakes/CakeAction';
 
-function CakeCon() {
+function CakeCon({numOfCakes, buyCake}) {
   return (
     <div>
-      <h2>Number of cakes</h2>
-      <button>Buy Cake</button>
+      <h2>Number of cakes {numOfCakes}</h2>
+      <button onClick={buyCake}>Buy Cake</button>
     </div>
   )
 }
 
-export default CakeCon
+const mapStateToProps = state => {
+  return {
+    numOfCakes: state.numOfCakes
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    buyCake: () => dispatch(buyCake())
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps) (CakeCon)
