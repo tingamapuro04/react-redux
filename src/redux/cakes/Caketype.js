@@ -1,4 +1,5 @@
 const BUY_CAKE = 'BUY_CAKE';
-const LEAVE_CAKE = 'LEAVE_CAKE'
+const LEAVE_CAKE = 'LEAVE_CAKE';
+const BUY_ICE = 'BUY_ICE'
 
-export {BUY_CAKE, LEAVE_CAKE}
+export {BUY_CAKE, LEAVE_CAKE, BUY_ICE}
