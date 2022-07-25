@@ -12,10 +12,10 @@ const leaveCake = () => {
   }
 }
 
-const buyice = () => {
-  return {
-    type: actions.BUY_ICE
-  }
-}
+// const buyice = () => {
+//   return {
+//     type: actions.BUY_ICE
+//   }
+// }
 
-export { buyCake, leaveCake, buyice }
+export { buyCake, leaveCake}
