@@ -1,5 +1,6 @@
 import { createStore } from 'redux';
-import CakeReducer from './CakeReducer';
+
+import CakeReducer from './cakes/CakeReducer'
 
 const store = createStore(CakeReducer);
 

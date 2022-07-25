@@ -1,7 +1,7 @@
 
 import './App.css';
 import CakeCon from './components/CakeCon';
-import store from './redux/cakes/Store';
+import store from './redux/Store';
 import { Provider } from 'react-redux';
 import HooksCakeContainer from './components/HooksCakeContainer';
 
