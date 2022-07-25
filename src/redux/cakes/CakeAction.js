@@ -6,11 +6,11 @@ const buyCake = () => {
   }
 }
 
-const leaveCake = () => {
-  return {
-    type: actions.LEAVE_CAKE
-  }
-}
+// const leaveCake = () => {
+//   return {
+//     type: actions.LEAVE_CAKE
+//   }
+// }
 
 // const buyice = () => {
 //   return {
@@ -18,4 +18,4 @@ const leaveCake = () => {
 //   }
 // }
 
-export { buyCake, leaveCake}
+export default buyCake

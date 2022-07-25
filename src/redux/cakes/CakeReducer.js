@@ -11,14 +11,6 @@ const CakeReducer = (state=initialState, action) => {
       ...state,
       numOfCakes: state.numOfCakes - 1
     }
-    case LEAVE_CAKE: return {
-      ...state,
-      numOfCakes: state.numOfCakes + 1
-    }
-    case BUY_ICE: return {
-      ...state,
-      numOfIce: state.numOfIce -1
-    }
     default: return state
   }
 }
